@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>xrh&#39;s Blog</title>
+  
+  <subtitle>krab</subtitle>
+  <link href="http://blog.isxrh.com/atom.xml" rel="self"/>
+  
+  <link href="http://blog.isxrh.com/"/>
+  <updated>2021-03-10T15:50:30.594Z</updated>
+  <id>http://blog.isxrh.com/</id>
+  
+  <author>
+    <name>krab</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>beta</title>
+    <link href="http://blog.isxrh.com/2021/03/10/beta/"/>
+    <id>http://blog.isxrh.com/2021/03/10/beta/</id>
+    <published>2021-03-10T15:50:10.000Z</published>
+    <updated>2021-03-10T15:50:30.594Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;beta</summary>
+        
+      
+    
+    
+    
+    
+    <category term="beta" scheme="http://blog.isxrh.com/tags/beta/"/>
+    
+  </entry>
+  
+</feed>
