@@ -46,6 +46,56 @@
     </entry>
     
     
+    
+    <entry>
+      <title>L8 共享内存与信号量</title>
+      <link href="2020/11/29/L8_%E5%85%B1%E4%BA%AB%E5%86%85%E5%AD%98%E4%B8%8E%E4%BF%A1%E5%8F%B7%E9%87%8F/"/>
+      <url>2020/11/29/L8_%E5%85%B1%E4%BA%AB%E5%86%85%E5%AD%98%E4%B8%8E%E4%BF%A1%E5%8F%B7%E9%87%8F/</url>
+      
+        <content type="html"><![CDATA[<h2 id="共享内存"><a href="#共享内存" class="headerlink" title="#共享内存"></a>#共享内存</h2><h3 id="1、系统调用"><a href="#1、系统调用" class="headerlink" title="1、系统调用"></a>1、系统调用</h3><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;sys/shm.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">shmget</span><span class="params">(<span class="keyword">key_t</span> __key, <span class="keyword">size_t</span> __size, <span class="keyword">int</span> __shmflg)</span></span></span><br></pre></td></tr></tbody></table></figure><ul><li>功能：创建共享内存</li><li>返回值：返回共享内存标志码，失败返回-1</li><li>参数<ul><li><code>__key</code> 标识共享内存键值</li><li><code>__size</code> 共享内存长度</li><li><code>__shmf</code> 标志<ul><li><code>IPC_CREAT</code> 共享内存不存在，则创建；否则，获得</li><li><code>IPC_EXCL</code> 只有在共享内存不存在的时候，新的共享内存才建立，否则产生错误</li></ul></li></ul></li></ul><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;sys/shm.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">void</span> *<span class="title">shmat</span><span class="params">(<span class="keyword">int</span> shmid, <span class="keyword">const</span> <span class="keyword">void</span> *shmaddr, <span class="keyword">int</span> shmflg)</span></span></span><br></pre></td></tr></tbody></table></figure><ul><li>功能：允许内存访问一块共享内存（共享内存刚创建时不能使用），即连接一块共享内存</li><li>返回值：成功返回共享内存起始地址，失败返回-1</li><li>参数：<ul><li><code>shmid</code> 共享内存ID</li><li><code>*shmaddr*</code> 共享内存在本进程的起始地址(一般使用0：操作系统分配地址)</li><li><code>shmflg</code> 进程对此共享内存的操作模式（``SHM_RDONLY`:只读）</li></ul></li></ul><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;sys/shm.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">shmdt</span><span class="params">(<span class="keyword">const</span> <span class="keyword">void</span> *shmaddr)</span></span></span><br></pre></td></tr></tbody></table></figure><ul><li>功能：断连共享内存</li><li>返回值：成功0，失败-1</li><li>参数：<code>shmaddr</code> 共享内存起始地址</li></ul><h3 id="2、用到的Linux命令"><a href="#2、用到的Linux命令" class="headerlink" title="2、用到的Linux命令"></a>2、用到的Linux命令</h3><figure class="highlight shell"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ipcs -m# 查看系统所有共享内存</span><br></pre></td></tr></tbody></table></figure><blockquote><p>注：共享内存本身不提供进程同步的机制</p></blockquote><h2 id="信号量"><a href="#信号量" class="headerlink" title="#信号量"></a>#信号量</h2><p><strong>原理：P-V操作</strong></p><ul><li><p><em>P操作：查看信号量值。信号量=1，则减去1（变为0），继续访问共享内存；信号量=0，进程阻塞；</em></p></li><li><p><em>V操作：把信号量值+1（0变为1），唤醒阻塞队列进程</em></p></li></ul><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;sys/sem.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">segment</span><span class="params">(<span class="keyword">key_t</span> __key, <span class="keyword">int</span> __nsems, <span class="keyword">int</span> __semflg)</span></span>;</span><br></pre></td></tr></tbody></table></figure><ul><li>功能：创建一个新的信号量或取得一个新的键值</li><li>返回值：成功返回信号量标志码，失败返回-1</li><li>参数：<ul><li><code>_key</code> 整型值，其他进程访问信号量的依据</li><li><code>_nsems</code> 信号量个数，一般为1</li><li><code>_semflg</code> 标志</li></ul></li></ul><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span>&lt;sys/sem.h</span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">semctl</span><span class="params">(<span class="keyword">int</span> __semid, <span class="keyword">int</span> __semnum, <span class="keyword">int</span> __cmd, ...)</span></span></span><br></pre></td></tr></tbody></table></figure><ul><li>功能：控制信号量信息</li><li>返回值：成功返回0，否则-1</li><li>参数：<ul><li><code>__semid</code> 信号量标志码</li><li><code>_semnum</code> 信号量编码</li><li><code>__cmd</code> 要进行的操作<ul><li><code>GETVAL</code> 返回信号量集中的一个单个信号量的值</li><li><code>SETVAL</code> 设置信号量集中的一个单独的信号量的值</li></ul></li><li>第四个参数是uniom semun的实例，具体值依赖__cmd</li></ul></li></ul><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;sys/sem.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">semop</span><span class="params">(<span class="keyword">int</span> __semid, struct sembuf *__sop, <span class="keyword">size_t</span> __nsops)</span></span></span><br></pre></td></tr></tbody></table></figure><ul><li>功能：用户改变信号量的值</li><li>返回值：成功0，失败-1</li><li>参数：<ul><li><code>__semid </code> 信号量标志码</li><li><code>__sops</code>  结构指针，包含了具体操作(P/V)</li><li><code>___nsops</code>  结构数量，=1</li></ul></li><li>struct sembuf 定义如下:</li></ul><figure class="highlight c"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">sembuf</span>  </span></span><br><span class="line"><span class="class">{</span></span><br><span class="line">    unisigned <span class="keyword">short</span>  sem_num; <span class="comment">// 所操作信号量在信号量集中位置，0 对应第一个信号量</span></span><br><span class="line">    <span class="keyword">short</span>  sem_op;<span class="comment">// 表示对该信号量的改变值，sem_op&gt;0 表示进程要释放 sem_op 个共享资源（P操作），sem_op&lt;0 表 示进程要申请sem_op个资源(P操作)</span></span><br><span class="line">    <span class="keyword">short</span>  sem_flg;<span class="comment">// 信号操作标志</span></span><br><span class="line">}</span><br></pre></td></tr></tbody></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 操作系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> OS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Ubuntu各种安装[备忘]</title>
+      <link href="2020/09/18/Ubuntu%E5%90%84%E7%A7%8D%E5%AE%89%E8%A3%85%5B%E5%A4%87%E5%BF%98%5D/"/>
+      <url>2020/09/18/Ubuntu%E5%90%84%E7%A7%8D%E5%AE%89%E8%A3%85%5B%E5%A4%87%E5%BF%98%5D/</url>
+      
+        <content type="html"><![CDATA[<h1 id="Ubuntu各种安装-备忘"><a href="#Ubuntu各种安装-备忘" class="headerlink" title="Ubuntu各种安装[备忘]"></a>Ubuntu各种安装[备忘]</h1><h2 id="0-安装VMware-Tools工具"><a href="#0-安装VMware-Tools工具" class="headerlink" title="0.安装VMware Tools工具"></a>0.安装VMware Tools工具</h2><p>打开Vmware，选择菜单栏中的“虚拟机”–&gt;安装Vmware Tools;</p><p>在linux的文件管理器里打开光驱的界面，打开终端，执行<code>sudo mv VMwareTools-10.2.5-8068393.tar.gz /opt/</code>；</p><p><code>cd /opt</code> 来到opt目录下；</p><p><code>tar zxpf VMwareTools-10.2.5-8068393.tar.gz</code> 解压；</p><p><code>cd vmware-tools-distrib</code> 进入解压后的vmware-tools-distrib目录；</p><p><code>sudo ./vmware-install.pl</code>；</p><p>输入密码，一路Enter即可。</p><blockquote><p>注：安装完成后即可全屏显示，但有些功能需重启生效（比如与win10之间的Ctrl c/v🤣)</p></blockquote><p>参考：<a href="https://zhuanlan.zhihu.com/p/67622390">https://zhuanlan.zhihu.com/p/67622390</a></p><h2 id="1、MySQL"><a href="#1、MySQL" class="headerlink" title="1、MySQL"></a>1、MySQL</h2><p><code>sudo apt update</code></p><p><code>sudo apt install mysql-server -y</code></p><p>参考：<a href="https://zhuanlan.zhihu.com/p/64080934">https://zhuanlan.zhihu.com/p/64080934</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 操作系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Ubuntu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
 </search>
