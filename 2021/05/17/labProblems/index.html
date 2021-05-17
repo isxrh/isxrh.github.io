@@ -29,10 +29,10 @@
 
     <script src="/libs/jquery/jquery.min.js"></script>
 
-<meta name="generator" content="Hexo 5.4.0"><link rel="alternate" href="/atom.xml" title="xrh's Blog" type="application/atom+xml">
-
+<meta name="generator" content="Hexo 5.4.0">
 <style>.github-emoji { position: relative; display: inline-block; width: 1.2em; min-height: 1.2em; overflow: hidden; vertical-align: top; color: transparent; }  .github-emoji > span { position: relative; z-index: 10; }  .github-emoji img, .github-emoji .fancybox { margin: 0 !important; padding: 0 !important; border: none !important; outline: none !important; text-decoration: none !important; user-select: none !important; cursor: auto !important; }  .github-emoji img { height: 1.2em !important; width: 1.2em !important; position: absolute !important; left: 50% !important; top: 50% !important; transform: translate(-50%, -50%) !important; user-select: none !important; cursor: auto !important; } .github-emoji-fallback { color: inherit; } .github-emoji-fallback img { opacity: 0 !important; }</style>
-</head>
+<link rel="alternate" href="/atom.xml" title="xrh's Blog" type="application/atom+xml">
+<link rel="stylesheet" href="/css/prism-tomorrow.css" type="text/css"></head>
 
 
 
@@ -397,7 +397,7 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    233
+                    234
                 </div>
                 
 
@@ -419,16 +419,25 @@
 
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="01-解决Python使用matplotlib绘图时出现的中文乱码问题"><a href="#01-解决Python使用matplotlib绘图时出现的中文乱码问题" class="headerlink" title="01. 解决Python使用matplotlib绘图时出现的中文乱码问题"></a>01. 解决Python使用matplotlib绘图时出现的中文乱码问题</h3><figure class="highlight plain"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">D:\ProgramFiles\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:238: RuntimeWarning: Glyph 35821 missing from current font.</span><br><span class="line">  font.set_text(s, 0.0, flags=flags)</span><br></pre></td></tr></tbody></table></figure>
-
+                <h3 id="01-解决Python使用matplotlib绘图时出现的中文乱码问题"><a href="#01-解决Python使用matplotlib绘图时出现的中文乱码问题" class="headerlink" title="01. 解决Python使用matplotlib绘图时出现的中文乱码问题"></a>01. 解决Python使用matplotlib绘图时出现的中文乱码问题</h3><pre><code>D:\ProgramFiles\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:238: RuntimeWarning: Glyph 35821 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+</code></pre>
 <p><strong>解决方案</strong><br>只需设置下参数即可，设置代码如下</p>
-<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line">plt.rcParams[‘font.sans-serif’]=[‘SimHei’] <span class="comment">#用来正常显示中文标签</span></span><br><span class="line">plt.rcParams[‘axes.unicode_minus’]=<span class="literal">False</span> <span class="comment">#用来正常显示负号</span></span><br></pre></td></tr></tbody></table></figure>
-
+<pre class=" language-python"><code class="language-python"><span class="token keyword">import</span> matplotlib<span class="token punctuation">.</span>pyplot <span class="token keyword">as</span> plt
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span>‘font<span class="token punctuation">.</span>sans<span class="token operator">-</span>serif’<span class="token punctuation">]</span><span class="token operator">=</span><span class="token punctuation">[</span>‘SimHei’<span class="token punctuation">]</span> <span class="token comment" spellcheck="true">#用来正常显示中文标签</span>
+plt<span class="token punctuation">.</span>rcParams<span class="token punctuation">[</span>‘axes<span class="token punctuation">.</span>unicode_minus’<span class="token punctuation">]</span><span class="token operator">=</span><span class="token boolean">False</span> <span class="token comment" spellcheck="true">#用来正常显示负号</span>
+</code></pre>
 <h3 id="02-python-3-bytes转-Numpy-array"><a href="#02-python-3-bytes转-Numpy-array" class="headerlink" title="02. python 3 bytes转 Numpy array"></a>02. python 3 bytes转 Numpy array</h3><p><code>np.frombuffer()</code></p>
-<figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">wav = wave.<span class="built_in">open</span>(<span class="string">"./lab1.wav"</span>, <span class="string">"rb"</span>)    <span class="comment"># 打开要播放的文件</span></span><br><span class="line">params = wav.getparams()</span><br><span class="line">framesrate, nframes = params[<span class="number">2</span>], params[<span class="number">3</span>]  <span class="comment"># 获取采样频率和总帧数</span></span><br><span class="line">datawav = wav.readframes(nframes)  <span class="comment"># 读取frameswav帧的音频。</span></span><br><span class="line">data = np.frombuffer(datawav, dtype=np.short)</span><br><span class="line">wav.close()</span><br></pre></td></tr></tbody></table></figure>
-
-<h3 id="03-numpy数组切片"><a href="#03-numpy数组切片" class="headerlink" title="03. numpy数组切片"></a>03. numpy数组切片</h3><figure class="highlight python"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">test = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>]</span><br><span class="line">t1 = [<span class="number">1</span>:<span class="number">1</span>+<span class="number">2</span>]  <span class="comment"># t1=[2, 3]</span></span><br></pre></td></tr></tbody></table></figure>
-
+<pre class=" language-python"><code class="language-python">wav <span class="token operator">=</span> wave<span class="token punctuation">.</span>open<span class="token punctuation">(</span><span class="token string">"./lab1.wav"</span><span class="token punctuation">,</span> <span class="token string">"rb"</span><span class="token punctuation">)</span>    <span class="token comment" spellcheck="true"># 打开要播放的文件</span>
+params <span class="token operator">=</span> wav<span class="token punctuation">.</span>getparams<span class="token punctuation">(</span><span class="token punctuation">)</span>
+framesrate<span class="token punctuation">,</span> nframes <span class="token operator">=</span> params<span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">]</span><span class="token punctuation">,</span> params<span class="token punctuation">[</span><span class="token number">3</span><span class="token punctuation">]</span>  <span class="token comment" spellcheck="true"># 获取采样频率和总帧数</span>
+datawav <span class="token operator">=</span> wav<span class="token punctuation">.</span>readframes<span class="token punctuation">(</span>nframes<span class="token punctuation">)</span>  <span class="token comment" spellcheck="true"># 读取frameswav帧的音频。</span>
+data <span class="token operator">=</span> np<span class="token punctuation">.</span>frombuffer<span class="token punctuation">(</span>datawav<span class="token punctuation">,</span> dtype<span class="token operator">=</span>np<span class="token punctuation">.</span>short<span class="token punctuation">)</span>
+wav<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span>
+</code></pre>
+<h3 id="03-numpy数组切片"><a href="#03-numpy数组切片" class="headerlink" title="03. numpy数组切片"></a>03. numpy数组切片</h3><pre class=" language-python"><code class="language-python">test <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">,</span> <span class="token number">2</span><span class="token punctuation">,</span> <span class="token number">3</span><span class="token punctuation">,</span> <span class="token number">4</span><span class="token punctuation">]</span>
+t1 <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">1</span><span class="token punctuation">:</span><span class="token number">1</span><span class="token operator">+</span><span class="token number">2</span><span class="token punctuation">]</span>  <span class="token comment" spellcheck="true"># t1=[2, 3]</span>
+</code></pre>
 <h3 id="04-np-where-condition-x-y"><a href="#04-np-where-condition-x-y" class="headerlink" title="04. np.where(condition, x, y)"></a>04. np.where(condition, x, y)</h3><p>满足条件(condition)，输出x，不满足输出y。</p>
 <h3 id="05-matplotlib画图，上子图坐标与下子图标题重叠"><a href="#05-matplotlib画图，上子图坐标与下子图标题重叠" class="headerlink" title="05. matplotlib画图，上子图坐标与下子图标题重叠"></a>05. matplotlib画图，上子图坐标与下子图标题重叠</h3><p>在plt.show()绘图之前加上一句代码： plt.tight_layout() ，则标题显示恢复正常。</p>
 
@@ -457,7 +466,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="http://blog.isxrh.com/2021/05/17/Problems%20encountered%20in%20using%20python/">http://blog.isxrh.com/2021/05/17/Problems%20encountered%20in%20using%20python/</a>
+                    <a href="http://blog.isxrh.com/2021/05/17/labProblems/">http://blog.isxrh.com/2021/05/17/labProblems/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -667,7 +676,7 @@
                 <i class="far fa-dot-circle"></i>&nbsp;本篇
             </div>
             <div class="card">
-                <a href="/2021/05/17/Problems%20encountered%20in%20using%20python/">
+                <a href="/2021/05/17/labProblems/">
                     <div class="card-image">
                         
                         
