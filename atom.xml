@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>krab&#39;s Blog</title>
+  <title>krab&#39;s blog</title>
   
   <subtitle>阅己.悦己.越己.</subtitle>
   <link href="http://blog.isxrh.com/atom.xml" rel="self"/>
   
   <link href="http://blog.isxrh.com/"/>
-  <updated>2021-05-17T08:37:07.185Z</updated>
+  <updated>2021-05-29T15:16:03.707Z</updated>
   <id>http://blog.isxrh.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
-    <link href="http://blog.isxrh.com/2021/05/17/labProblems/"/>
-    <id>http://blog.isxrh.com/2021/05/17/labProblems/</id>
-    <published>2021-05-17T08:38:10.943Z</published>
-    <updated>2021-05-17T08:37:07.185Z</updated>
+    <title>Python使用指北</title>
+    <link href="http://blog.isxrh.com/2021/05/29/labProblems/"/>
+    <id>http://blog.isxrh.com/2021/05/29/labProblems/</id>
+    <published>2021-05-28T16:56:00.000Z</published>
+    <updated>2021-05-29T15:16:03.707Z</updated>
     
     
       
@@ -33,6 +33,8 @@
       
     
     
+    
+    <category term="程序设计" scheme="http://blog.isxrh.com/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
     
     
   </entry>
