@@ -28,7 +28,7 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;01-解决Python使用matplotlib绘图时出现的中文乱码问题&quot;&gt;&lt;a href=&quot;#01-解决Python使用matplotlib绘图时出现的中文乱码问题&quot; class=&quot;headerlink&quot; title=&quot;01.</summary>
+    <summary type="html">&lt;h3 id=&quot;01-解决python使用matplotlib绘图时出现的中文乱码问题&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#01-解决python使用matplotlib绘图时出现的中文乱码问题&quot;&gt;&lt;/a&gt; 01.</summary>
         
       
     
@@ -74,7 +74,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;学业篇&quot;&gt;&lt;a href=&quot;#学业篇&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;学业篇&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#学业篇&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -99,7 +99,7 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;1-round的结果跟python版本有关&quot;&gt;&lt;a href=&quot;#1-round的结果跟python版本有关&quot; class=&quot;headerlink&quot; title=&quot;1. round的结果跟python版本有关&quot;&gt;&lt;/a&gt;1.</summary>
+    <summary type="html">&lt;h3 id=&quot;1-round的结果跟python版本有关&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-round的结果跟python版本有关&quot;&gt;&lt;/a&gt; 1.</summary>
         
       
     
@@ -124,7 +124,7 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;一-通过SQLyog建立连接&quot;&gt;&lt;a href=&quot;#一-通过SQLyog建立连接&quot; class=&quot;headerlink&quot; title=&quot;一. 通过SQLyog建立连接&quot;&gt;&lt;/a&gt;一.</summary>
+    <summary type="html">&lt;h3 id=&quot;一-通过sqlyog建立连接&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一-通过sqlyog建立连接&quot;&gt;&lt;/a&gt; 一.</summary>
         
       
     
@@ -149,7 +149,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;第一章-引论&quot;&gt;&lt;a href=&quot;#第一章-引论&quot; class=&quot;headerlink&quot; title=&quot;第一章 引论&quot;&gt;&lt;/a&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;第一章-引论&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#第一章-引论&quot;&gt;&lt;/a&gt; &lt;a href=&quot;https://www.processon.com/embed/5feb035063768932a2ee02e3&quot;&gt;第一章</summary>
         
       
     
@@ -174,7 +174,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;共享内存&quot;&gt;&lt;a href=&quot;#共享内存&quot; class=&quot;headerlink&quot; title=&quot;#共享内存&quot;&gt;&lt;/a&gt;#共享内存&lt;/h2&gt;&lt;h3 id=&quot;1、系统调用&quot;&gt;&lt;a href=&quot;#1、系统调用&quot; class=&quot;headerlink&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;共享内存&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#共享内存&quot;&gt;&lt;/a&gt; #共享内存&lt;/h2&gt;
+&lt;h3 id=&quot;1-系统调用&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-系统调用&quot;&gt;&lt;/a&gt;</summary>
         
       
     
@@ -199,7 +200,8 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;Ubuntu各种安装-备忘&quot;&gt;&lt;a href=&quot;#Ubuntu各种安装-备忘&quot; class=&quot;headerlink&quot; title=&quot;Ubuntu各种安装[备忘]&quot;&gt;&lt;/a&gt;Ubuntu各种安装[备忘]&lt;/h1&gt;&lt;h2</summary>
+    <summary type="html">&lt;h1 id=&quot;ubuntu各种安装备忘&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#ubuntu各种安装备忘&quot;&gt;&lt;/a&gt; Ubuntu各种安装[备忘]&lt;/h1&gt;
+&lt;h2 id=&quot;0安装vmware-tools工具&quot;&gt;&lt;a</summary>
         
       
     
@@ -224,7 +226,9 @@
       
         
         
-    <summary type="html">&lt;p&gt;最近一直打不开&lt;a href=&quot;http://www.google.com域名下的所有网页,显示不是安全的链接,点开域名前的锁,显示域名无效./&quot;&gt;www.google.com域名下的所有网页，显示不是安全的链接，点开域名前的锁，显示域名无效。&lt;/a&gt;&lt;br&gt;&lt;a</summary>
+    <summary type="html">&lt;p&gt;最近一直打不开www.google.com域名下的所有网页，显示不是安全的链接，点开域名前的锁，显示域名无效。&lt;br&gt;
+www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
+以为是VMWare的问题或者是www.google.com的证书问题。&lt;br</summary>
         
       
     
@@ -272,7 +276,7 @@
       
         
         
-    <summary type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span</summary>
+    <summary type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;let str=&#39;abcd&#39;;&lt;/span&gt;&lt;br&gt;&lt;span</summary>
         
       
     
@@ -297,7 +301,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;Basic&quot;&gt;&lt;a href=&quot;#Basic&quot; class=&quot;headerlink&quot; title=&quot;Basic&quot;&gt;&lt;/a&gt;Basic&lt;/h2&gt;&lt;p&gt;&lt;code&gt;ls [选项] [路径]&lt;/code&gt;&lt;/p&gt;
+    <summary type="html">&lt;h2 id=&quot;basic&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#basic&quot;&gt;&lt;/a&gt; Basic&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;ls [选项] [路径]&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;list</summary>
         
       
@@ -325,7 +330,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;3-1-Multiple-Features-多维特征&quot;&gt;&lt;a href=&quot;#3-1-Multiple-Features-多维特征&quot; class=&quot;headerlink&quot; title=&quot;3.1 Multiple Features(多维特征)&quot;&gt;&lt;/a&gt;3.1</summary>
+    <summary type="html">&lt;h2 id=&quot;31-multiple-features多维特征&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#31-multiple-features多维特征&quot;&gt;&lt;/a&gt; 3.1 Multiple</summary>
         
       
     
@@ -350,7 +355,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;2-1-Model-Representation&quot;&gt;&lt;a href=&quot;#2-1-Model-Representation&quot; class=&quot;headerlink&quot; title=&quot;2.1 Model Representation&quot;&gt;&lt;/a&gt;2.1 Model</summary>
+    <summary type="html">&lt;h2 id=&quot;21-model-representation&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#21-model-representation&quot;&gt;&lt;/a&gt; 2.1 Model Representation&lt;/h2&gt;
+&lt;p&gt;To</summary>
         
       
     
@@ -375,7 +381,7 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;1-1-What-is-Machine-Learning&quot;&gt;&lt;a href=&quot;#1-1-What-is-Machine-Learning&quot; class=&quot;headerlink&quot; title=&quot;1.1 What is Machine</summary>
+    <summary type="html">&lt;h2 id=&quot;11-what-is-machine-learning&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#11-what-is-machine-learning&quot;&gt;&lt;/a&gt; 1.1 What is Machine</summary>
         
       
     
@@ -400,7 +406,7 @@
       
         
         
-    <summary type="html">&lt;p&gt;配置时光机社交按钮时，&lt;code&gt;handsome&lt;/code&gt;配置文档里的展示示例仅给出了”微博”和”网易云”的跳转链接，如下：&lt;/p&gt;
+    <summary type="html">&lt;p&gt;配置时光机社交按钮时，&lt;code&gt;handsome&lt;/code&gt;配置文档里的展示示例仅给出了&quot;微博&quot;和&quot;网易云&quot;的跳转链接，如下：&lt;/p&gt;
 &lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td</summary>
         
       
@@ -425,7 +431,7 @@
         
         
     <summary type="html">&lt;p&gt;本文搬运自：&lt;a href=&quot;https://appso.github.io/2018/11/21/Shadowsocks-install/&quot;&gt;Shadowsocks 一键安装脚本（四合一）&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;1-脚本适用环境&quot;&gt;&lt;a</summary>
+&lt;h2 id=&quot;1脚本适用环境&quot;&gt;&lt;a</summary>
         
       
     
@@ -448,7 +454,8 @@
       
         
         
-    <summary type="html">&lt;h2 id=&quot;一、理论基础&quot;&gt;&lt;a href=&quot;#一、理论基础&quot; class=&quot;headerlink&quot; title=&quot;一、理论基础&quot;&gt;&lt;/a&gt;一、理论基础&lt;/h2&gt;&lt;p&gt;本地仓库有 Git 维护的&lt;strong&gt;三棵“树&lt;/strong&gt; &lt;strong&gt;工作区域、暂存区域和</summary>
+    <summary type="html">&lt;h2 id=&quot;一-理论基础&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#一-理论基础&quot;&gt;&lt;/a&gt; 一、理论基础&lt;/h2&gt;
+&lt;p&gt;本地仓库有 Git 维护的&lt;strong&gt;三棵“树&lt;/strong&gt; &lt;strong&gt;工作区域、暂存区域和 Git</summary>
         
       
     
@@ -477,7 +484,7 @@
         
     <summary type="html">&lt;p&gt;没有 emjio 的文章是没有灵魂的🤣，之前想用一下🕗表情，结果加上表情发出来的文章啥也没了QAQ&lt;/p&gt;
 &lt;p&gt;最近闲着美化主题的时候看到了设置Typecho支持emjio的相关教程，总结了一下&lt;/p&gt;
-&lt;h2 id=&quot;0&quot;&gt;&lt;a href=&quot;#0&quot;</summary>
+&lt;h2 id=&quot;0&quot;&gt;&lt;a</summary>
         
       
     
@@ -500,7 +507,8 @@
       
         
         
-    <summary type="html">&lt;h3 id=&quot;1-找到配置文件&quot;&gt;&lt;a href=&quot;#1-找到配置文件&quot; class=&quot;headerlink&quot; title=&quot;1. 找到配置文件&quot;&gt;&lt;/a&gt;1. 找到配置文件&lt;/h3&gt;&lt;p&gt;打开 &lt;em&gt;Anaconda Prompt&lt;/em&gt; 输入命令</summary>
+    <summary type="html">&lt;h3 id=&quot;1-找到配置文件&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-找到配置文件&quot;&gt;&lt;/a&gt; 1. 找到配置文件&lt;/h3&gt;
+&lt;p&gt;打开 &lt;em&gt;Anaconda Prompt&lt;/em&gt; 输入命令 &lt;code&gt;jupyter</summary>
         
       
     
