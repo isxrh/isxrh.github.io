@@ -89,8 +89,8 @@
   
   <entry>
     <title>python内置函数round(x [, n])</title>
-    <link href="http://blog.isxrh.com/2021/01/17/2021-01-17-python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_[,_n])/"/>
-    <id>http://blog.isxrh.com/2021/01/17/2021-01-17-python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_[,_n])/</id>
+    <link href="http://blog.isxrh.com/2021/01/17/python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_[,_n])/"/>
+    <id>http://blog.isxrh.com/2021/01/17/python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_[,_n])/</id>
     <published>2021-01-17T01:49:00.000Z</published>
     <updated>2021-02-02T16:14:26.000Z</updated>
     
@@ -105,9 +105,7 @@
     
     
     
-    <category term="学习笔记" scheme="http://blog.isxrh.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="程序设计" scheme="http://blog.isxrh.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
+    <category term="程序设计" scheme="http://blog.isxrh.com/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
     
     
   </entry>
@@ -260,31 +258,6 @@ www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
     
     
     <category term="杂七杂八" scheme="http://blog.isxrh.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript踩坑日记---string.replace()</title>
-    <link href="http://blog.isxrh.com/2020/09/10/JavaScript%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0---string.replace()/"/>
-    <id>http://blog.isxrh.com/2020/09/10/JavaScript%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0---string.replace()/</id>
-    <published>2020-09-10T08:28:00.000Z</published>
-    <updated>2020-09-10T08:30:47.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;let str=&#39;abcd&#39;;&lt;/span&gt;&lt;br&gt;&lt;span</summary>
-        
-      
-    
-    
-    
-    <category term="学习笔记" scheme="http://blog.isxrh.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="前端" scheme="http://blog.isxrh.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/%E5%89%8D%E7%AB%AF/"/>
     
     
   </entry>
@@ -461,9 +434,7 @@ www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
     
     
     
-    <category term="学习笔记" scheme="http://blog.isxrh.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="Git" scheme="http://blog.isxrh.com/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/Git/"/>
+    <category term="Git" scheme="http://blog.isxrh.com/categories/Git/"/>
     
     
     <category term="Git" scheme="http://blog.isxrh.com/tags/Git/"/>
@@ -516,6 +487,31 @@ www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
     
     <category term="杂七杂八" scheme="http://blog.isxrh.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>1 数字逻辑基础</title>
+    <link href="http://blog.isxrh.com/2020/07/26/1_%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E5%9F%BA%E7%A1%80/"/>
+    <id>http://blog.isxrh.com/2020/07/26/1_%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E5%9F%BA%E7%A1%80/</id>
+    <published>2020-07-26T08:52:00.000Z</published>
+    <updated>2020-07-26T08:57:38.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;11-模拟信号与数字信号&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#11-模拟信号与数字信号&quot;&gt;&lt;/a&gt; 1.1</summary>
+        
+      
+    
+    
+    
+    <category term="数字电路" scheme="http://blog.isxrh.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
+    
+    
+    <category term="数字电路" scheme="http://blog.isxrh.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
     
   </entry>
   

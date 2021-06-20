@@ -68,15 +68,13 @@
     
     <entry>
       <title>python内置函数round(x [, n])</title>
-      <link href="2021/01/17/2021-01-17-python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_%5B,_n%5D)/"/>
-      <url>2021/01/17/2021-01-17-python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_%5B,_n%5D)/</url>
+      <link href="2021/01/17/python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_%5B,_n%5D)/"/>
+      <url>2021/01/17/python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_%5B,_n%5D)/</url>
       
         <content type="html"><![CDATA[<h3 id="1-round的结果跟python版本有关"><a class="markdownIt-Anchor" href="#1-round的结果跟python版本有关"></a> 1. round的结果跟python版本有关</h3><p>python2.7的doc中:</p><blockquote><p>“Values are rounded to the closest multiple of 10 to the power minus ndigits; if two multiples are equally close, rounding is done away from 0.”</p></blockquote><p>保留值将保留到离上一位更近的一端（四舍六入），如果距离两端一样远，则保留到离0远的一边。所以round(0.5)会近似到1，而round(-0.5)会近似到-1。</p><p>python3.5的doc中:</p><blockquote><p>“values are rounded to the closest multiple of 10 to the power minus ndigits; if two multiples are equally close, rounding is done toward the even choice.”</p></blockquote><p>如果距离两边一样远，会保留到偶数的一边。比如round(0.5)和round(-0.5)都会保留到0，而round(1.5)会保留到2</p><h3 id="2-特殊数字round出来的结果可能未必是想要的"><a class="markdownIt-Anchor" href="#2-特殊数字round出来的结果可能未必是想要的"></a> 2. 特殊数字round出来的结果可能未必是想要的</h3><p>比如说round(2.675, 2). 不论我们从python2还是3来看，结果都应该是2.68的，但实际结果是2.67。这跟浮点数的精度有关。在机器中浮点数不一定能精确表达，因为换算成一串1和0后可能是无限位数的，机器已经做出了截断处理。那么在机器中保存的2.675这个数字就比实际数字要小那么一点点。这一点点就导致了它离2.67要更近一点点，所以保留两位小数时就近似到了2.67</p><p>因此，如果对精度要求比较高，最好不要用round()函数。对浮点数精度要求如果很高的话，可以用decimal模块。</p><blockquote><p>参考：<a href="https://www.cnblogs.com/anpengapple/p/6507271.html">https://www.cnblogs.com/anpengapple/p/6507271.html</a></p></blockquote>]]></content>
       
       
       <categories>
-          
-          <category> 学习笔记 </category>
           
           <category> 程序设计 </category>
           
@@ -217,27 +215,6 @@
       <categories>
           
           <category> 杂七杂八 </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>JavaScript踩坑日记---string.replace()</title>
-      <link href="2020/09/10/JavaScript%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0---string.replace()/"/>
-      <url>2020/09/10/JavaScript%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0---string.replace()/</url>
-      
-        <content type="html"><![CDATA[<figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">let str='abcd';</span><br><span class="line">str.replace('a', 'e');//这一条语句的返回值是'ebcd',但str仍然是'abcd'</span><br></pre></td></tr></tbody></table></figure><p>要想改变str，需使用赋值语句</p><figure class="highlight plain"><table><tbody><tr><td class="code"><pre><span class="line">str = str.replace('a','e')</span><br></pre></td></tr></tbody></table></figure>]]></content>
-      
-      
-      <categories>
-          
-          <category> 学习笔记 </category>
-          
-          <category> 前端 </category>
           
       </categories>
       
@@ -396,8 +373,6 @@
       
       <categories>
           
-          <category> 学习笔记 </category>
-          
           <category> Git </category>
           
       </categories>
@@ -460,8 +435,6 @@
       
       
       <categories>
-          
-          <category> 学习笔记 </category>
           
           <category> 数字电路 </category>
           
@@ -782,8 +755,8 @@
     
     <entry>
       <title>frame&amp;quot; in Wireshark</title>
-      <link href="2020/05/12/&amp;quot;Resquest_Response_frame&amp;quot;_in_Wireshark/"/>
-      <url>2020/05/12/&amp;quot;Resquest_Response_frame&amp;quot;_in_Wireshark/</url>
+      <link href="2020/05/12/Resquest%20Response%20frame%20in%20Wireshark/"/>
+      <url>2020/05/12/Resquest%20Response%20frame%20in%20Wireshark/</url>
       
         <content type="html"><![CDATA[<p>做计网实验6的时候突然发现，用Wireshark捕获的包的ICMP中，有个[Response frame:2],以前都没注意，本来以为是响应数据包的个数，但ping的数据包大小才64，肯定不会被分成两个！<br>又看了很多其他ICMP，才发现这个指的是响应数据包在包列表中的序号哇！（就是包列表中第一列的No值)<br><s>蠢死TT</s></p>]]></content>
       
