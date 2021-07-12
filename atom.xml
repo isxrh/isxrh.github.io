@@ -40,28 +40,6 @@
   </entry>
   
   <entry>
-    <title></title>
-    <link href="http://blog.isxrh.com/2021/04/23/pandas%E4%B8%8Enumpy%E6%96%B9%E5%B7%AE%E5%8C%BA%E5%88%AB/"/>
-    <id>http://blog.isxrh.com/2021/04/23/pandas%E4%B8%8Enumpy%E6%96%B9%E5%B7%AE%E5%8C%BA%E5%88%AB/</id>
-    <published>2021-04-23T02:34:16.896Z</published>
-    <updated>2021-04-23T02:36:34.550Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;python&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#python&quot;&gt;&lt;/a&gt; Python&lt;/h1&gt;
-&lt;h2 id=&quot;pandas与numpy方差区别&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot;</summary>
-        
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>beta</title>
     <link href="http://blog.isxrh.com/2021/03/10/beta/"/>
     <id>http://blog.isxrh.com/2021/03/10/beta/</id>
@@ -308,6 +286,31 @@ www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
     
     
     <category term="Linux" scheme="http://blog.isxrh.com/tags/Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Linux指令</title>
+    <link href="http://blog.isxrh.com/2020/09/02/pandas%E4%B8%8Enumpy%E6%96%B9%E5%B7%AE%E5%8C%BA%E5%88%AB/"/>
+    <id>http://blog.isxrh.com/2020/09/02/pandas%E4%B8%8Enumpy%E6%96%B9%E5%B7%AE%E5%8C%BA%E5%88%AB/</id>
+    <published>2020-09-02T11:44:00.000Z</published>
+    <updated>2021-01-04T15:50:46.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;pandas与numpy方差区别&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#pandas与numpy方差区别&quot;&gt;&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    <category term="程序设计" scheme="http://blog.isxrh.com/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+    <category term="Python" scheme="http://blog.isxrh.com/tags/Python/"/>
     
   </entry>
   
