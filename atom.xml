@@ -6,7 +6,7 @@
   <link href="http://blog.isxrh.com/atom.xml" rel="self"/>
   
   <link href="http://blog.isxrh.com/"/>
-  <updated>2021-07-12T08:48:55.343Z</updated>
+  <updated>2021-07-26T04:47:14.540Z</updated>
   <id>http://blog.isxrh.com/</id>
   
   <author>
@@ -17,36 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>pandas与numpy方差区别</title>
-    <link href="http://blog.isxrh.com/2021/07/12/pandas%E4%B8%8Enumpy%E6%96%B9%E5%B7%AE%E5%8C%BA%E5%88%AB/"/>
-    <id>http://blog.isxrh.com/2021/07/12/pandas%E4%B8%8Enumpy%E6%96%B9%E5%B7%AE%E5%8C%BA%E5%88%AB/</id>
-    <published>2021-07-12T08:44:00.000Z</published>
-    <updated>2021-07-12T08:48:55.343Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h1 id=&quot;pandas与numpy方差区别&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#pandas与numpy方差区别&quot;&gt;&lt;/a&gt;</summary>
-        
-      
-    
-    
-    
-    <category term="程序设计" scheme="http://blog.isxrh.com/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
-    
-    
-    <category term="Python" scheme="http://blog.isxrh.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Python使用指北</title>
-    <link href="http://blog.isxrh.com/2021/05/29/labProblems/"/>
-    <id>http://blog.isxrh.com/2021/05/29/labProblems/</id>
+    <link href="http://blog.isxrh.com/2021/05/29/Python%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/"/>
+    <id>http://blog.isxrh.com/2021/05/29/Python%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/</id>
     <published>2021-05-28T16:56:00.000Z</published>
-    <updated>2021-05-29T15:16:03.707Z</updated>
+    <updated>2021-07-26T04:47:14.540Z</updated>
     
     
       
@@ -212,7 +187,7 @@
   </entry>
   
   <entry>
-    <title>Ubuntu各种安装[备忘]</title>
+    <title>Ubuntu虚拟机/服务器折腾[备忘]</title>
     <link href="http://blog.isxrh.com/2020/09/18/Ubuntu%E5%90%84%E7%A7%8D%E5%AE%89%E8%A3%85[%E5%A4%87%E5%BF%98]/"/>
     <id>http://blog.isxrh.com/2020/09/18/Ubuntu%E5%90%84%E7%A7%8D%E5%AE%89%E8%A3%85[%E5%A4%87%E5%BF%98]/</id>
     <published>2020-09-18T12:02:00.000Z</published>
@@ -223,8 +198,7 @@
       
         
         
-    <summary type="html">&lt;h1 id=&quot;ubuntu各种安装备忘&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#ubuntu各种安装备忘&quot;&gt;&lt;/a&gt; Ubuntu各种安装[备忘]&lt;/h1&gt;
-&lt;h2 id=&quot;0安装vmware-tools工具&quot;&gt;&lt;a</summary>
+    <summary type="html">&lt;h2 id=&quot;0虚拟机安装vmware-tools工具&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#0虚拟机安装vmware-tools工具&quot;&gt;&lt;/a&gt; 0.虚拟机安装VMware</summary>
         
       
     
@@ -274,7 +248,7 @@ www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
       
         
         
-    <summary type="html">&lt;p&gt;最近启动ssr一直弹窗警告端口被占用😤：&lt;/p&gt;
+    <summary type="html">&lt;p&gt;最近启动ssr一直弹窗警告端口被占用：&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;System.Exception:端口已被占用
 在Shadowsocks.Controller.Listener.Start(Configuration</summary>
         
@@ -510,6 +484,31 @@ www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
     
     <category term="杂七杂八" scheme="http://blog.isxrh.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
     
+    
+  </entry>
+  
+  <entry>
+    <title>1 数字逻辑基础</title>
+    <link href="http://blog.isxrh.com/2020/07/26/1_%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E5%9F%BA%E7%A1%80/"/>
+    <id>http://blog.isxrh.com/2020/07/26/1_%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E5%9F%BA%E7%A1%80/</id>
+    <published>2020-07-26T08:52:00.000Z</published>
+    <updated>2020-07-26T08:57:38.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;11-模拟信号与数字信号&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#11-模拟信号与数字信号&quot;&gt;&lt;/a&gt; 1.1</summary>
+        
+      
+    
+    
+    
+    <category term="数字电路" scheme="http://blog.isxrh.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
+    
+    
+    <category term="数字电路" scheme="http://blog.isxrh.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
     
   </entry>
   
