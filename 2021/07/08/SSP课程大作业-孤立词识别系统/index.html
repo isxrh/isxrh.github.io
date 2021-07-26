@@ -26,30 +26,24 @@
 <p>词语范围固定的孤立词识别问题，本质上属于一个多分类问题，输入为语音信号，输出为语音信号对应的词语文字。针对这一问题，搭建了具有4个卷积层、4个汇聚层和2个全连接层的一维卷积神经网络，网络结构如图 1所示。</p>
 <p>输入为语音的时域信号，首先经过四层卷积层和池化层的深层特征提取和降维，然后进入全连接层把提取到的局部特征进行全局上的整合与变换，最后经过Softmax得到语音属于不同分类的概率。网络搭建的核心代码如下：</p>
 <figure class="highlight python"><table><tbody><tr><td class="code"><pre><span class="line">inputs = Input(shape=(<span class="number">8000</span>,<span class="number">1</span>))</span><br><span class="line"><span class="comment"># First Conv1D layer</span></span><br><span class="line">conv = Conv1D(<span class="number">8</span>, <span class="number">13</span>, padding=<span class="string">'valid'</span>, activation=<span class="string">'relu'</span>, strides=<span class="number">1</span>)(inputs)</span><br><span class="line">conv = MaxPooling1D(<span class="number">3</span>)(conv)</span><br><span class="line">conv = Dropout(<span class="number">0.3</span>)(conv)</span><br><span class="line"><span class="comment"># Second Conv1D layer</span></span><br><span class="line">conv = Conv1D(<span class="number">16</span>, <span class="number">11</span>, padding=<span class="string">'valid'</span>, activation=<span class="string">'relu'</span>, strides=<span class="number">1</span>)(conv)</span><br><span class="line">conv = MaxPooling1D(<span class="number">3</span>)(conv)</span><br><span class="line">conv = Dropout(<span class="number">0.3</span>)(conv)</span><br><span class="line"><span class="comment"># Third Conv1D layer</span></span><br><span class="line">conv = Conv1D(<span class="number">32</span>, <span class="number">9</span>, padding=<span class="string">'valid'</span>, activation=<span class="string">'relu'</span>, strides=<span class="number">1</span>)(conv)</span><br><span class="line">conv = MaxPooling1D(<span class="number">3</span>)(conv)</span><br><span class="line">conv = Dropout(<span class="number">0.3</span>)(conv)</span><br><span class="line"><span class="comment"># Fourth Conv1D layer</span></span><br><span class="line">conv = Conv1D(<span class="number">64</span>, <span class="number">7</span>, padding=<span class="string">'valid'</span>, activation=<span class="string">'relu'</span>, strides=<span class="number">1</span>)(conv)</span><br><span class="line">conv = MaxPooling1D(<span class="number">3</span>)(conv)</span><br><span class="line">conv = Dropout(<span class="number">0.3</span>)(conv)</span><br><span class="line"><span class="comment"># Flatten layer</span></span><br><span class="line">conv = Flatten()(conv)</span><br><span class="line"><span class="comment"># First Dense Layer</span></span><br><span class="line">conv = Dense(<span class="number">256</span>, activation=<span class="string">'relu'</span>)(conv)</span><br><span class="line">conv = Dropout(<span class="number">0.3</span>)(conv)</span><br><span class="line"><span class="comment"># Second Dense Layer 2</span></span><br><span class="line">conv = Dense(<span class="number">128</span>, activation=<span class="string">'relu'</span>)(conv)</span><br><span class="line">conv = Dropout(<span class="number">0.3</span>)(conv)</span><br><span class="line"><span class="comment"># Output</span></span><br><span class="line">outputs = Dense(<span class="built_in">len</span>(labels), activation=<span class="string">'softmax'</span>)(conv)</span><br><span class="line">model = Model(inputs, outputs)</span><br><span class="line">model.summary()</span><br></pre></td></tr></tbody></table></figure>
-<p><img src="https://cdn.jsdelivr.net/gh/isxrh/My-Private-Pictures/img/wps1.jpg" alt="img"></p>
-<p>图 1 用于孤立词识别的CNN结构示意图</p>
+<p><img src="https://cdn.jsdelivr.net/gh/isxrh/My-Private-Pictures/img/wps1.jpg" alt="图1 用于孤立词识别的CNN结构示意图"></p>
 <h3 id="13-模型应用及性能评估"><a class="markdownIt-Anchor" href="#13-模型应用及性能评估"></a> 1.3 模型应用及性能评估</h3>
 <p>实验所用的数据集来自TensorFlow语音识别挑战赛。</p>
 <p>上述模型应用于语音处理的流程如图 2所示：</p>
-<p><img src="https://i.loli.net/2021/07/26/yBlsbnfQNTLp82M.jpg" alt="img"></p>
-<p>图 2 孤立词识别流程图</p>
+<p><img src="https://i.loli.net/2021/07/26/yBlsbnfQNTLp82M.jpg" alt="图2 孤立词识别流程图"></p>
 <p>首先，对数据进行预处理。实验选择"yes", “no”, “up”, "down"四个孤立词识别。首先删除音频长度&lt; 1秒的语音；然后对剩余语音进行重采样处理，由于人类的语音信号的频率大部分在 10000Hz 以下，电话信号的采样率为 8000Hz，因此实验也将原语音信号重采样到8000Hz(原采样率为16000Hz)；最后对输出标签编码，先将输出标签转换为整体编码，再进行One-hot编码处理，同时，输入信号转化为3维。</p>
 <p>然后，划分训练集和数据集，实验以8:2的比例进行划分。</p>
 <p>再将训练集输入到搭建好的模型中进行训练。训练过程中，损失变化如图 3所示：</p>
-<p><img src="https://cdn.jsdelivr.net/gh/isxrh/My-Private-Pictures/img/wps3.jpg" alt="img"></p>
-<p>图 3 模型损失变化图</p>
+<img src="https://cdn.jsdelivr.net/gh/isxrh/My-Private-Pictures/img/wps3.jpg" alt="图3 模型损失变化图" style="zoom:67%;"> 
 <p>最后，利用测试集检验模型性能。结果显示，测试集语音总条为1694，其中预测正确条数有1573，预测错误条数有121，即在测试集上的正确率92.86%。</p>
 <h2 id="2-基于pyqt5的孤立词识别系统"><a class="markdownIt-Anchor" href="#2-基于pyqt5的孤立词识别系统"></a> 2 基于PyQt5的孤立词识别系统</h2>
 <p>为方便识别过程，搭建了基于PyQt5的简易孤立词识别系统，系统主界面如下图所示：</p>
-<p><img src="https://i.loli.net/2021/07/26/pA8yvMRieUGkQq9.jpg" alt="img"></p>
-<p>图 4 识别系统主界面图</p>
+<p><img src="https://i.loli.net/2021/07/26/pA8yvMRieUGkQq9.jpg" alt="图 4 识别系统主界面图"></p>
 <p>​	界面左边为语音识别区域，右边为系统使用说明区域。</p>
 <p>​	点击[Start Recording]按钮即开始录音，录音时间为1s, 录音界面如下图：</p>
-<p><img src="https://i.loli.net/2021/07/26/WbglOKtMBucrAfm.jpg" alt="img"></p>
-<p>图 5 录音界面图</p>
+<p><img src="https://i.loli.net/2021/07/26/WbglOKtMBucrAfm.jpg" alt="图 5 录音界面图"></p>
 <p>录音完成，系统调用训练好的CNN孤立词识别模型对语音进行识别，识别完成，立即展示识别结果，如下图所示：</p>
-<p><img src="https://i.loli.net/2021/07/26/2mWP8fk1CqYBSMI.jpg" alt="img"></p>
-<p>图 6 识别结果展示界面图</p>
+<p><img src="https://i.loli.net/2021/07/26/2mWP8fk1CqYBSMI.jpg" alt="图 6 识别结果展示界面图"></p>
 <h2 id="3-总结"><a class="markdownIt-Anchor" href="#3-总结"></a> 3 总结</h2>
 <p>本文提出了基于卷积神经网络的孤立词语音识别方法。搭建了具有4个卷积层、4个汇聚层和2个全连接层的一维卷积神经网络模型。利用TensorFlow语音识别挑战赛数据集对模型进行训练、测试，实验结果表明，模型在测试集上的识别正确率为92%。同时，为模型使用，基于PyQt5搭建了可视化孤立词识别系统，系统简洁易用，识别速度快、准确率高。</p>
 <p>由于时间资源有限，模型仅能用于识别"yes", “no”, “up”, "down"四个孤立词，如需识别其他词，还有重新训练；另外，卷积神经网络的许多参数还有待改进，以减少训练时间。</p>
