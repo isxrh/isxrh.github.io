@@ -6,7 +6,7 @@
   <link href="http://blog.isxrh.com/atom.xml" rel="self"/>
   
   <link href="http://blog.isxrh.com/"/>
-  <updated>2021-07-26T04:47:14.540Z</updated>
+  <updated>2021-07-26T05:20:50.629Z</updated>
   <id>http://blog.isxrh.com/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>基于卷积神经网络的孤立词语音识别系统</title>
+    <link href="http://blog.isxrh.com/2021/07/08/SSP%E8%AF%BE%E7%A8%8B%E5%A4%A7%E4%BD%9C%E4%B8%9A-%E5%AD%A4%E7%AB%8B%E8%AF%8D%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://blog.isxrh.com/2021/07/08/SSP%E8%AF%BE%E7%A8%8B%E5%A4%A7%E4%BD%9C%E4%B8%9A-%E5%AD%A4%E7%AB%8B%E8%AF%8D%E8%AF%86%E5%88%AB%E7%B3%BB%E7%BB%9F/</id>
+    <published>2021-07-08T14:00:00.000Z</published>
+    <updated>2021-07-26T05:20:50.629Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;项目地址：&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="程序设计" scheme="http://blog.isxrh.com/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Python使用指北</title>
     <link href="http://blog.isxrh.com/2021/05/29/Python%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/"/>
     <id>http://blog.isxrh.com/2021/05/29/Python%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/</id>
     <published>2021-05-28T16:56:00.000Z</published>
-    <updated>2021-07-26T04:47:14.540Z</updated>
+    <updated>2021-07-26T05:12:53.809Z</updated>
     
     
       
@@ -84,29 +108,6 @@
     
     
     <category term="个人总结" scheme="http://blog.isxrh.com/tags/%E4%B8%AA%E4%BA%BA%E6%80%BB%E7%BB%93/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>python内置函数round(x [, n])</title>
-    <link href="http://blog.isxrh.com/2021/01/17/python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_[,_n])/"/>
-    <id>http://blog.isxrh.com/2021/01/17/python%E5%86%85%E7%BD%AE%E5%87%BD%E6%95%B0round(x_[,_n])/</id>
-    <published>2021-01-17T01:49:00.000Z</published>
-    <updated>2021-02-02T16:14:26.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;1-round的结果跟python版本有关&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-round的结果跟python版本有关&quot;&gt;&lt;/a&gt; 1.</summary>
-        
-      
-    
-    
-    
-    <category term="程序设计" scheme="http://blog.isxrh.com/categories/%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1/"/>
-    
     
   </entry>
   
