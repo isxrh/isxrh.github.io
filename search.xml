@@ -29,6 +29,31 @@
     
     
     <entry>
+      <title>基于卷积神经网络的孤立词语音识别系统</title>
+      <link href="2021/07/08/Ch%201%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/"/>
+      <url>2021/07/08/Ch%201%20%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E6%A6%82%E8%BF%B0/</url>
+      
+        <content type="html"><![CDATA[<h1 id="ch-1-计算机系统概述"><a class="markdownIt-Anchor" href="#ch-1-计算机系统概述"></a> Ch 1 计算机系统概述</h1><h2 id="11-os基本概念"><a class="markdownIt-Anchor" href="#11-os基本概念"></a> 1.1 OS基本概念</h2><h3 id="概念"><a class="markdownIt-Anchor" href="#概念"></a> 概念</h3><ul><li>负责管理协调硬件、软件等计算机资源</li><li>为上层用户、应用程序提供简易服务</li><li>是一种系统软件</li></ul><h3 id="功能和目标"><a class="markdownIt-Anchor" href="#功能和目标"></a> 功能和目标</h3><ul><li><p>资源的管理者</p><ul><li>处理机管理</li><li>存储器管理</li><li>文件管理</li><li>设备管理</li></ul></li><li><p>向上层提供服务</p><ul><li><p>给普通用户的</p><ul><li><p>GUI</p></li><li><p>命令接口</p><ul><li>联机命令接口</li><li>脱机命令接口</li></ul></li></ul></li><li><p>给软件/程序员的</p><ul><li><p>程序接口（系统调用）</p><ul><li><p>是什么？</p><ul><li>OS对应用程序/程序员提供的接口</li></ul></li><li><p>与库函数区别</p></li><li><p>系统调用实现的功能</p><ul><li><p>设备管理</p><ul><li>完成设备的 请求/释放/启动 等功能</li></ul></li><li><p>文件管理</p><ul><li>完成文件的 读/写/创建/删除 等功能</li></ul></li><li><p>进程控制</p><ul><li>完成进程的 创建/撤销/阻塞/唤醒 等功能</li></ul></li><li><p>进程通信</p><ul><li>完成进程之间的 消息传递/信号传递 等功能</li></ul></li><li><p>内存管理</p><ul><li>完成内存的 分配/回收 等功能</li></ul></li></ul></li><li><p>系统调用的过程</p><ul><li>传参</li><li>陷入指令/Trap/访管</li><li>由OS内核程序处理系统调用请求</li><li>返回应用程序</li></ul></li></ul></li></ul></li></ul></li><li><p>对硬件机器的扩展</p><ul><li>扩充机器</li></ul></li></ul><h3 id="特征"><a class="markdownIt-Anchor" href="#特征"></a> 特征</h3><ul><li><p>并发</p></li><li><p>共享</p><ul><li>互斥共享方式</li><li>同时共享方式</li></ul></li><li><p>虚拟</p><ul><li>时分复用技术</li><li>空分复用技术</li></ul></li><li><p>异步</p></li></ul><h2 id="12-os发展"><a class="markdownIt-Anchor" href="#12-os发展"></a> 1.2 OS发展</h2><h3 id="手工操作阶段"><a class="markdownIt-Anchor" href="#手工操作阶段"></a> 手工操作阶段</h3><ul><li>缺点：人机速度矛盾</li></ul><h3 id="批处理阶段"><a class="markdownIt-Anchor" href="#批处理阶段"></a> 批处理阶段</h3><ul><li><p>单道批处理系统（引入脱机I/O技术）</p><ul><li>优点：缓解人机速度矛盾</li><li>缺点：资源利用率依然低</li></ul></li><li><p>多道批处理系统（OS开始出现）</p><ul><li>优点：多道程序并发执行，资源利用率高</li><li>缺点：不提供人机交互功能</li></ul></li></ul><h3 id="分时os"><a class="markdownIt-Anchor" href="#分时os"></a> 分时OS</h3><ul><li>优点：提供人机交互</li><li>缺点：不能优先处理紧急任务</li></ul><h3 id="实时os"><a class="markdownIt-Anchor" href="#实时os"></a> 实时OS</h3><ul><li><p>硬实时系统</p><ul><li>必须在绝对严格的规定时间内完成处理</li></ul></li><li><p>软实时系统</p><ul><li>能偶尔接受违反时间规定</li></ul></li><li><p>优点：能优先处理紧急任务</p></li></ul><h3 id="网络os"><a class="markdownIt-Anchor" href="#网络os"></a> 网络OS</h3><h3 id="分布式os"><a class="markdownIt-Anchor" href="#分布式os"></a> 分布式OS</h3><h3 id="个人计算机os"><a class="markdownIt-Anchor" href="#个人计算机os"></a> 个人计算机OS</h3><h2 id="13-os运行环境"><a class="markdownIt-Anchor" href="#13-os运行环境"></a> 1.3 OS运行环境</h2><h3 id="os运行机制"><a class="markdownIt-Anchor" href="#os运行机制"></a> OS运行机制</h3><ul><li><p>两类程序</p><ul><li>内核程序</li><li>应用程序</li></ul></li><li><p>两类指令</p><ul><li>特权指令</li><li>非特权指令</li></ul></li><li><p>两种处理器状态</p><ul><li>内核态/核心态/管态</li><li>用户态/目态</li></ul></li><li><p>内核（内核(Kernel)是OS最重要最核心的部分，由很多内核程序组成）</p><ul><li><p>时钟管理</p><ul><li>实现计时功能</li></ul></li><li><p>中断处理</p><ul><li>负责实现中断机制</li></ul></li><li><p>原语</p><ul><li>是一种特殊的程序</li><li>处于OS最底层，最接近硬件的部分</li><li>具有原子性——其运行只能一气呵成，不可中断</li><li>运行时间较短、调用频繁</li></ul></li><li><p>对系统资源进行管理的功能</p><ul><li>进程管理</li><li>存储器管理</li><li>设备管理</li></ul></li></ul></li><li><p>如何变态</p><ul><li><p>内核态–&gt;用户态</p><ul><li>一条修改PSW的特权指令</li></ul></li><li><p>用户态–&gt;内核态</p><ul><li>由中断引起，硬件自动完成</li></ul></li></ul></li></ul><h3 id="中断和异常"><a class="markdownIt-Anchor" href="#中断和异常"></a> 中断和异常</h3><ul><li><p>中断的作用</p><ul><li>让操作系统强行夺回CPU控制权</li><li>使CPU从用户态变为内核态</li></ul></li><li><p>中断的分类</p><ul><li><p>内中断（异常/例外）</p><ul><li>陷阱、陷入（trap）</li><li>故障（fault）</li><li>终止（abort）</li></ul></li><li><p>外中断</p><ul><li>时钟中断</li><li>I/O请求中断</li></ul></li></ul></li><li><p>中断机制的基本原理</p><ul><li><p>检查中断信号</p><ul><li>内中断：CPU在执行指令时会检查是否有异常发生</li><li>外中断：每个指令周期末尾，CPU都会检查是否有外部中断信号需要处理</li></ul></li><li><p>找到相应的中断处理程序</p><ul><li>通过“中断向量表”实现</li></ul></li></ul></li></ul><h2 id="14-os体系结构"><a class="markdownIt-Anchor" href="#14-os体系结构"></a> 1.4 OS体系结构</h2><h3 id="大内核"><a class="markdownIt-Anchor" href="#大内核"></a> 大内核</h3><ul><li>将OS的主要功能模块都作为系统内核，运行在核心态</li><li>优点：高性能</li><li>缺点：内核代码庞大，结构混乱，难以维护</li></ul><h3 id="微内核"><a class="markdownIt-Anchor" href="#微内核"></a> 微内核</h3><ul><li>只把最关键的功能保留在内核</li><li>优点：内核功能少，结构清晰，方便维护</li><li>缺点：需要频繁地在核心态和用户态之间切换，性能低</li></ul>]]></content>
+      
+      
+      <categories>
+          
+          <category> 操作系统 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> OS </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Python使用指北</title>
       <link href="2021/05/29/Python%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/"/>
       <url>2021/05/29/Python%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8C%97/</url>
