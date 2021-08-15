@@ -6,7 +6,7 @@
   <link href="http://blog.isxrh.com/atom.xml" rel="self"/>
   
   <link href="http://blog.isxrh.com/"/>
-  <updated>2021-07-26T05:34:13.521Z</updated>
+  <updated>2021-08-15T16:33:36.613Z</updated>
   <id>http://blog.isxrh.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>操作系统知识整理</title>
+    <link href="http://blog.isxrh.com/2021/08/16/20210816-OS%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/"/>
+    <id>http://blog.isxrh.com/2021/08/16/20210816-OS%E7%9F%A5%E8%AF%86%E6%95%B4%E7%90%86/</id>
+    <published>2021-08-15T16:31:00.000Z</published>
+    <updated>2021-08-15T16:33:36.613Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;ch-1-计算机系统概述&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#ch-1-计算机系统概述&quot;&gt;&lt;/a&gt; Ch 1 计算机系统概述&lt;/h1&gt;
+&lt;h2 id=&quot;11-os基本概念&quot;&gt;&lt;a</summary>
+        
+      
+    
+    
+    
+    <category term="OS" scheme="http://blog.isxrh.com/categories/OS/"/>
+    
+    
+    <category term="OS" scheme="http://blog.isxrh.com/tags/OS/"/>
+    
+  </entry>
   
   <entry>
     <title>基于卷积神经网络的孤立词语音识别系统</title>
@@ -487,31 +513,6 @@ www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
     
     <category term="杂七杂八" scheme="http://blog.isxrh.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>1 数字逻辑基础</title>
-    <link href="http://blog.isxrh.com/2020/07/26/1_%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E5%9F%BA%E7%A1%80/"/>
-    <id>http://blog.isxrh.com/2020/07/26/1_%E6%95%B0%E5%AD%97%E9%80%BB%E8%BE%91%E5%9F%BA%E7%A1%80/</id>
-    <published>2020-07-26T08:52:00.000Z</published>
-    <updated>2020-07-26T08:57:38.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h2 id=&quot;11-模拟信号与数字信号&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#11-模拟信号与数字信号&quot;&gt;&lt;/a&gt; 1.1</summary>
-        
-      
-    
-    
-    
-    <category term="数字电路" scheme="http://blog.isxrh.com/categories/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
-    
-    
-    <category term="数字电路" scheme="http://blog.isxrh.com/tags/%E6%95%B0%E5%AD%97%E7%94%B5%E8%B7%AF/"/>
     
   </entry>
   
