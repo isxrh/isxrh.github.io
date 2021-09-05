@@ -6,7 +6,7 @@
   <link href="http://blog.isxrh.com/atom.xml" rel="self"/>
   
   <link href="http://blog.isxrh.com/"/>
-  <updated>2021-08-17T07:48:30.136Z</updated>
+  <updated>2021-09-05T08:48:29.879Z</updated>
   <id>http://blog.isxrh.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://blog.isxrh.com/2021/08/31/DB/"/>
+    <id>http://blog.isxrh.com/2021/08/31/DB/</id>
+    <published>2021-08-31T11:31:11.734Z</published>
+    <updated>2021-09-05T08:48:29.879Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;layout: post&lt;br&gt;
+cid: 31&lt;br&gt;
+title: DB&lt;br&gt;
+slug: 31&lt;br&gt;
+date: 2021/09/05 16:48:00&lt;br&gt;
+updated: 2021/08/27 16:48:00&lt;br&gt;
+status:</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>操作系统知识整理</title>
@@ -482,30 +509,6 @@ www.google.com的颁发者和颁布者全部指向了VMWare。&lt;br&gt;
     <summary type="html">&lt;p&gt;没有 emjio 的文章是没有灵魂的🤣，之前想用一下🕗表情，结果加上表情发出来的文章啥也没了QAQ&lt;/p&gt;
 &lt;p&gt;最近闲着美化主题的时候看到了设置Typecho支持emjio的相关教程，总结了一下&lt;/p&gt;
 &lt;h2 id=&quot;0&quot;&gt;&lt;a</summary>
-        
-      
-    
-    
-    
-    <category term="杂七杂八" scheme="http://blog.isxrh.com/categories/%E6%9D%82%E4%B8%83%E6%9D%82%E5%85%AB/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Jupyter默认目录和默认浏览器修改[备忘]</title>
-    <link href="http://blog.isxrh.com/2020/08/03/Jupyter%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95%E5%92%8C%E9%BB%98%E8%AE%A4%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BF%AE%E6%94%B9[%E5%A4%87%E5%BF%98]/"/>
-    <id>http://blog.isxrh.com/2020/08/03/Jupyter%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95%E5%92%8C%E9%BB%98%E8%AE%A4%E6%B5%8F%E8%A7%88%E5%99%A8%E4%BF%AE%E6%94%B9[%E5%A4%87%E5%BF%98]/</id>
-    <published>2020-08-03T11:26:00.000Z</published>
-    <updated>2020-08-03T11:27:13.000Z</updated>
-    
-    
-      
-      
-        
-        
-    <summary type="html">&lt;h3 id=&quot;1-找到配置文件&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#1-找到配置文件&quot;&gt;&lt;/a&gt; 1. 找到配置文件&lt;/h3&gt;
-&lt;p&gt;打开 &lt;em&gt;Anaconda Prompt&lt;/em&gt; 输入命令 &lt;code&gt;jupyter</summary>
         
       
     
