@@ -1,3 +1,4 @@
+http://example.com/tags/index.html
 http://example.com/2024/04/18/JavaWeb/
 http://example.com/2022/09/20/beta/
 http://example.com/2022/09/20/hello-world/
