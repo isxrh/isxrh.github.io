@@ -1,3 +1,4 @@
+http://example.com/2024/05/15/MyBatis/
 http://example.com/2020/12/30/OS/
 http://example.com/2021/07/08/SSP/
 http://example.com/2020/09/02/linux/
@@ -8,11 +9,10 @@ http://example.com/404.html
 http://example.com/gallery/index.html
 http://example.com/categories/index.html
 http://example.com/tags/index.html
-http://example.com/2022/09/20/beta/
-http://example.com/2022/09/20/hello-world/
 http://example.com/
 http://example.com/tags/JavaWeb/
 http://example.com/tags/OS/
 http://example.com/tags/DB/
 http://example.com/tags/GIT/
 http://example.com/tags/SSP/
+http://example.com/tags/Mybatis/
