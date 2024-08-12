@@ -3,11 +3,11 @@
   <title>Krab&#39;s Blog</title>
   
   
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://isxrh.github.io/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://isxrh.github.io/"/>
   <updated>2024-08-12T15:36:06.143Z</updated>
-  <id>http://example.com/</id>
+  <id>https://isxrh.github.io/</id>
   
   <author>
     <name>Krab</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Mybatis</title>
-    <link href="http://example.com/2024/05/15/202405_MyBatis/"/>
-    <id>http://example.com/2024/05/15/202405_MyBatis/</id>
+    <link href="https://isxrh.github.io/2024/05/15/202405_MyBatis/"/>
+    <id>https://isxrh.github.io/2024/05/15/202405_MyBatis/</id>
     <published>2024-05-14T16:00:00.000Z</published>
     <updated>2024-08-12T15:36:06.143Z</updated>
     
@@ -33,17 +33,17 @@
     
     
     
-    <category term="开发框架" scheme="http://example.com/categories/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/"/>
+    <category term="开发框架" scheme="https://isxrh.github.io/categories/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/"/>
     
     
-    <category term="Mybatis" scheme="http://example.com/tags/Mybatis/"/>
+    <category term="Mybatis" scheme="https://isxrh.github.io/tags/Mybatis/"/>
     
   </entry>
   
   <entry>
     <title>JavaWeb</title>
-    <link href="http://example.com/2024/04/18/202404_JavaWeb/"/>
-    <id>http://example.com/2024/04/18/202404_JavaWeb/</id>
+    <link href="https://isxrh.github.io/2024/04/18/202404_JavaWeb/"/>
+    <id>https://isxrh.github.io/2024/04/18/202404_JavaWeb/</id>
     <published>2024-04-17T16:00:00.000Z</published>
     <updated>2024-08-12T12:51:19.350Z</updated>
     
@@ -59,17 +59,17 @@
     
     
     
-    <category term="开发框架" scheme="http://example.com/categories/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/"/>
+    <category term="开发框架" scheme="https://isxrh.github.io/categories/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/"/>
     
     
-    <category term="JavaWeb" scheme="http://example.com/tags/JavaWeb/"/>
+    <category term="JavaWeb" scheme="https://isxrh.github.io/tags/JavaWeb/"/>
     
   </entry>
   
   <entry>
     <title>访问google.com显示证书无效（指向vmware）</title>
-    <link href="http://example.com/2021/09/17/202009_%E8%AE%BF%E9%97%AEgoogle.com%E6%98%BE%E7%A4%BA%E8%AF%81%E5%AE%9E%E6%97%A0%E6%95%88%EF%BC%88%E6%8C%87%E5%90%91vmware)/"/>
-    <id>http://example.com/2021/09/17/202009_%E8%AE%BF%E9%97%AEgoogle.com%E6%98%BE%E7%A4%BA%E8%AF%81%E5%AE%9E%E6%97%A0%E6%95%88%EF%BC%88%E6%8C%87%E5%90%91vmware)/</id>
+    <link href="https://isxrh.github.io/2021/09/17/202009_%E8%AE%BF%E9%97%AEgoogle.com%E6%98%BE%E7%A4%BA%E8%AF%81%E5%AE%9E%E6%97%A0%E6%95%88%EF%BC%88%E6%8C%87%E5%90%91vmware)/"/>
+    <id>https://isxrh.github.io/2021/09/17/202009_%E8%AE%BF%E9%97%AEgoogle.com%E6%98%BE%E7%A4%BA%E8%AF%81%E5%AE%9E%E6%97%A0%E6%95%88%EF%BC%88%E6%8C%87%E5%90%91vmware)/</id>
     <published>2021-09-16T16:00:00.000Z</published>
     <updated>2024-08-12T13:57:06.594Z</updated>
     
@@ -83,17 +83,17 @@
     
     
     
-    <category term="疑难杂症" scheme="http://example.com/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/"/>
+    <category term="疑难杂症" scheme="https://isxrh.github.io/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/"/>
     
     
-    <category term="Others" scheme="http://example.com/tags/Others/"/>
+    <category term="Others" scheme="https://isxrh.github.io/tags/Others/"/>
     
   </entry>
   
   <entry>
     <title>Typora+PicGo+github图床</title>
-    <link href="http://example.com/2021/08/17/202108_%E5%9B%BE%E5%BA%8A/"/>
-    <id>http://example.com/2021/08/17/202108_%E5%9B%BE%E5%BA%8A/</id>
+    <link href="https://isxrh.github.io/2021/08/17/202108_%E5%9B%BE%E5%BA%8A/"/>
+    <id>https://isxrh.github.io/2021/08/17/202108_%E5%9B%BE%E5%BA%8A/</id>
     <published>2021-08-16T16:00:00.000Z</published>
     <updated>2024-08-12T15:17:18.353Z</updated>
     
@@ -108,17 +108,17 @@
     
     
     
-    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://isxrh.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="Others" scheme="http://example.com/tags/Others/"/>
+    <category term="Others" scheme="https://isxrh.github.io/tags/Others/"/>
     
   </entry>
   
   <entry>
     <title>SQLyog连接服务器数据库</title>
-    <link href="http://example.com/2021/07/17/202108_SQLyog%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
-    <id>http://example.com/2021/07/17/202108_SQLyog%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
+    <link href="https://isxrh.github.io/2021/07/17/202108_SQLyog%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%B0%E6%8D%AE%E5%BA%93/"/>
+    <id>https://isxrh.github.io/2021/07/17/202108_SQLyog%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%B0%E6%8D%AE%E5%BA%93/</id>
     <published>2021-07-16T16:00:00.000Z</published>
     <updated>2024-08-12T13:57:43.096Z</updated>
     
@@ -133,17 +133,17 @@
     
     
     
-    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://isxrh.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="Others" scheme="http://example.com/tags/Others/"/>
+    <category term="Others" scheme="https://isxrh.github.io/tags/Others/"/>
     
   </entry>
   
   <entry>
     <title>基于卷积神经网络的孤立词语音识别系统</title>
-    <link href="http://example.com/2021/07/08/202107_SSP/"/>
-    <id>http://example.com/2021/07/08/202107_SSP/</id>
+    <link href="https://isxrh.github.io/2021/07/08/202107_SSP/"/>
+    <id>https://isxrh.github.io/2021/07/08/202107_SSP/</id>
     <published>2021-07-07T16:00:00.000Z</published>
     <updated>2024-08-12T13:35:35.339Z</updated>
     
@@ -158,17 +158,17 @@
     
     
     
-    <category term="科研" scheme="http://example.com/categories/%E7%A7%91%E7%A0%94/"/>
+    <category term="科研" scheme="https://isxrh.github.io/categories/%E7%A7%91%E7%A0%94/"/>
     
     
-    <category term="SSP" scheme="http://example.com/tags/SSP/"/>
+    <category term="SSP" scheme="https://isxrh.github.io/tags/SSP/"/>
     
   </entry>
   
   <entry>
     <title>2020年总结</title>
-    <link href="http://example.com/2021/02/22/202102_2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
-    <id>http://example.com/2021/02/22/202102_2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
+    <link href="https://isxrh.github.io/2021/02/22/202102_2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/"/>
+    <id>https://isxrh.github.io/2021/02/22/202102_2020%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93/</id>
     <published>2021-02-21T16:00:00.000Z</published>
     <updated>2024-08-12T12:49:50.835Z</updated>
     
@@ -182,17 +182,17 @@
     
     
     
-    <category term="生活" scheme="http://example.com/categories/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://isxrh.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
     
     
-    <category term="生活" scheme="http://example.com/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://isxrh.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>OS</title>
-    <link href="http://example.com/2020/12/30/202012_OS/"/>
-    <id>http://example.com/2020/12/30/202012_OS/</id>
+    <link href="https://isxrh.github.io/2020/12/30/202012_OS/"/>
+    <id>https://isxrh.github.io/2020/12/30/202012_OS/</id>
     <published>2020-12-29T16:00:00.000Z</published>
     <updated>2024-08-12T12:53:32.353Z</updated>
     
@@ -206,17 +206,17 @@
     
     
     
-    <category term="计算机基础" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    <category term="计算机基础" scheme="https://isxrh.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="OS" scheme="http://example.com/tags/OS/"/>
+    <category term="OS" scheme="https://isxrh.github.io/tags/OS/"/>
     
   </entry>
   
   <entry>
     <title>ssr端口占用问题</title>
-    <link href="http://example.com/2020/09/17/202009_ssr%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/"/>
-    <id>http://example.com/2020/09/17/202009_ssr%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/</id>
+    <link href="https://isxrh.github.io/2020/09/17/202009_ssr%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/"/>
+    <id>https://isxrh.github.io/2020/09/17/202009_ssr%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/</id>
     <published>2020-09-16T16:00:00.000Z</published>
     <updated>2024-08-12T14:45:26.358Z</updated>
     
@@ -231,17 +231,17 @@
     
     
     
-    <category term="疑难杂症" scheme="http://example.com/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/"/>
+    <category term="疑难杂症" scheme="https://isxrh.github.io/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/"/>
     
     
-    <category term="Others" scheme="http://example.com/tags/Others/"/>
+    <category term="Others" scheme="https://isxrh.github.io/tags/Others/"/>
     
   </entry>
   
   <entry>
     <title>Linux指令</title>
-    <link href="http://example.com/2020/09/02/202009_linux/"/>
-    <id>http://example.com/2020/09/02/202009_linux/</id>
+    <link href="https://isxrh.github.io/2020/09/02/202009_linux/"/>
+    <id>https://isxrh.github.io/2020/09/02/202009_linux/</id>
     <published>2020-09-01T16:00:00.000Z</published>
     <updated>2024-08-12T12:48:09.474Z</updated>
     
@@ -256,17 +256,17 @@
     
     
     
-    <category term="计算机基础" scheme="http://example.com/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
+    <category term="计算机基础" scheme="https://isxrh.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/"/>
     
     
-    <category term="OS" scheme="http://example.com/tags/OS/"/>
+    <category term="OS" scheme="https://isxrh.github.io/tags/OS/"/>
     
   </entry>
   
   <entry>
     <title>如何利用自己的服务器科学上网🚀</title>
-    <link href="http://example.com/2020/08/10/202008_%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
-    <id>http://example.com/2020/08/10/202008_%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</id>
+    <link href="https://isxrh.github.io/2020/08/10/202008_%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    <id>https://isxrh.github.io/2020/08/10/202008_%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/</id>
     <published>2020-08-09T16:00:00.000Z</published>
     <updated>2024-08-12T14:57:42.298Z</updated>
     
@@ -282,17 +282,17 @@
     
     
     
-    <category term="其他" scheme="http://example.com/categories/%E5%85%B6%E4%BB%96/"/>
+    <category term="其他" scheme="https://isxrh.github.io/categories/%E5%85%B6%E4%BB%96/"/>
     
     
-    <category term="Others" scheme="http://example.com/tags/Others/"/>
+    <category term="Others" scheme="https://isxrh.github.io/tags/Others/"/>
     
   </entry>
   
   <entry>
     <title>网页链接跳转QQ会话</title>
-    <link href="http://example.com/2020/08/09/202008_%E7%BD%91%E9%A1%B5%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%ACqq%E4%BC%9A%E8%AF%9D/"/>
-    <id>http://example.com/2020/08/09/202008_%E7%BD%91%E9%A1%B5%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%ACqq%E4%BC%9A%E8%AF%9D/</id>
+    <link href="https://isxrh.github.io/2020/08/09/202008_%E7%BD%91%E9%A1%B5%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%ACqq%E4%BC%9A%E8%AF%9D/"/>
+    <id>https://isxrh.github.io/2020/08/09/202008_%E7%BD%91%E9%A1%B5%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%ACqq%E4%BC%9A%E8%AF%9D/</id>
     <published>2020-08-08T16:00:00.000Z</published>
     <updated>2024-08-12T14:52:03.799Z</updated>
     
@@ -307,17 +307,17 @@
     
     
     
-    <category term="疑难杂症" scheme="http://example.com/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/"/>
+    <category term="疑难杂症" scheme="https://isxrh.github.io/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/"/>
     
     
-    <category term="Others" scheme="http://example.com/tags/Others/"/>
+    <category term="Others" scheme="https://isxrh.github.io/tags/Others/"/>
     
   </entry>
   
   <entry>
     <title>GIT</title>
-    <link href="http://example.com/2020/08/05/202008_GIT/"/>
-    <id>http://example.com/2020/08/05/202008_GIT/</id>
+    <link href="https://isxrh.github.io/2020/08/05/202008_GIT/"/>
+    <id>https://isxrh.github.io/2020/08/05/202008_GIT/</id>
     <published>2020-08-04T16:00:00.000Z</published>
     <updated>2024-08-12T13:50:01.919Z</updated>
     
@@ -331,17 +331,17 @@
     
     
     
-    <category term="常用工具" scheme="http://example.com/categories/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
+    <category term="常用工具" scheme="https://isxrh.github.io/categories/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/"/>
     
     
-    <category term="GIT" scheme="http://example.com/tags/GIT/"/>
+    <category term="GIT" scheme="https://isxrh.github.io/tags/GIT/"/>
     
   </entry>
   
   <entry>
     <title>概率统计（数理统计部分）</title>
-    <link href="http://example.com/2020/07/10/202007_%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/"/>
-    <id>http://example.com/2020/07/10/202007_%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/</id>
+    <link href="https://isxrh.github.io/2020/07/10/202007_%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/"/>
+    <id>https://isxrh.github.io/2020/07/10/202007_%E6%A6%82%E7%8E%87%E7%BB%9F%E8%AE%A1/</id>
     <published>2020-07-09T16:00:00.000Z</published>
     <updated>2024-08-12T14:40:04.880Z</updated>
     
@@ -359,10 +359,10 @@
     
     
     
-    <category term="课程笔记" scheme="http://example.com/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
+    <category term="课程笔记" scheme="https://isxrh.github.io/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/"/>
     
     
-    <category term="笔记" scheme="http://example.com/tags/%E7%AC%94%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://isxrh.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
