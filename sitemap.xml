@@ -203,14 +203,14 @@
   </url>
   
   <url>
-    <loc>https://isxrh.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://isxrh.github.io/tags/SSP/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://isxrh.github.io/tags/SSP/</loc>
+    <loc>https://isxrh.github.io/tags/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -247,13 +247,6 @@
   </url>
   
   <url>
-    <loc>https://isxrh.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
-    <lastmod>2024-08-12</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://isxrh.github.io/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
@@ -268,7 +261,7 @@
   </url>
   
   <url>
-    <loc>https://isxrh.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
+    <loc>https://isxrh.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -276,6 +269,13 @@
   
   <url>
     <loc>https://isxrh.github.io/categories/%E7%A7%91%E7%A0%94/</loc>
+    <lastmod>2024-08-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://isxrh.github.io/categories/%E7%94%9F%E6%B4%BB/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
