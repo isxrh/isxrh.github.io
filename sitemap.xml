@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://isxrh.github.io/about/index.html</loc>
+    
+    <lastmod>2024-08-12</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://isxrh.github.io/2024/05/15/202405_MyBatis/</loc>
     
     <lastmod>2024-08-12</lastmod>
@@ -92,15 +101,6 @@
   </url>
   
   <url>
-    <loc>https://isxrh.github.io/about.html</loc>
-    
-    <lastmod>2024-08-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://isxrh.github.io/2020/12/30/202012_OS/</loc>
     
     <lastmod>2024-08-12</lastmod>
@@ -182,14 +182,14 @@
 
   
   <url>
-    <loc>https://isxrh.github.io/tags/GIT/</loc>
+    <loc>https://isxrh.github.io/tags/Others/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://isxrh.github.io/tags/Others/</loc>
+    <loc>https://isxrh.github.io/tags/GIT/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -240,7 +240,7 @@
 
   
   <url>
-    <loc>https://isxrh.github.io/categories/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://isxrh.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -254,14 +254,14 @@
   </url>
   
   <url>
-    <loc>https://isxrh.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</loc>
+    <loc>https://isxrh.github.io/categories/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://isxrh.github.io/categories/%E5%85%B6%E4%BB%96/</loc>
+    <loc>https://isxrh.github.io/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/</loc>
     <lastmod>2024-08-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
