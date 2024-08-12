@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><meta name="description" content="Linux指令"><meta name="keywords" content="OS"><meta name="author" content="Krab"><meta name="copyright" content="Krab"><title>Linux指令 | Krab's Blog</title><link rel="shortcut icon" href="/melody-favicon.ico"><link rel="stylesheet" href="/css/index.css?version=1.9.1"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css?version=1.9.1"><meta name="format-detection" content="telephone=no"><meta http-equiv="x-dns-prefetch-control" content="on"><link rel="dns-prefetch" href="https://cdn.jsdelivr.net"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  copy: {
+    success: 'Copy successfully',
+    error: 'Copy error',
+    noSupport: 'The browser does not support'
+  },
+  hexoVersion: '6.3.0'
+} </script><meta name="generator" content="Hexo 6.3.0"><link rel="alternate" href="/atom.xml" title="Krab's Blog" type="application/atom+xml">
+</head><body><canvas class="fireworks"></canvas><i class="fa fa-arrow-right" id="toggle-sidebar" aria-hidden="true"></i><div id="sidebar" data-display="true"><div class="toggle-sidebar-info text-center"><span data-toggle="Toggle article">Toggle site</span><hr></div><div class="sidebar-toc"><div class="sidebar-toc__title">Catalog</div><div class="sidebar-toc__progress"><span class="progress-notice">You've read</span><span class="progress-num">0</span><span class="progress-percentage">%</span><div class="sidebar-toc__progress-bar"></div></div><div class="sidebar-toc__content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Basic"><span class="toc-number">1.</span> <span class="toc-text">Basic</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Advanced"><span class="toc-number">2.</span> <span class="toc-text">Advanced</span></a></li></ol></div></div><div class="author-info hide"><div class="author-info__avatar text-center"><img src="https://img2.imgtp.com/2024/04/18/xioEzq6G.jpg"></div><div class="author-info__name text-center">Krab</div><div class="author-info__description text-center"></div><div class="follow-button"><a target="_blank" rel="noopener" href="https://github.com/isxrh">Follow Me</a></div><hr><div class="author-info-articles"><a class="author-info-articles__archives article-meta" href="/archives"><span class="pull-left">Articles</span><span class="pull-right">14</span></a><a class="author-info-articles__tags article-meta" href="/tags"><span class="pull-left">Tags</span><span class="pull-right">8</span></a><a class="author-info-articles__categories article-meta" href="/categories"><span class="pull-left">Categories</span><span class="pull-right">8</span></a></div></div></div><div id="content-outer"><div class="no-bg" id="top-container"><div id="page-header"><span class="pull-left"> <a id="site-name" href="/">Krab's Blog</a></span><i class="fa fa-bars toggle-menu pull-right" aria-hidden="true"></i><span class="pull-right menus">   <a class="site-page" href="/">Home</a><a class="site-page" href="/archives">Archives</a><a class="site-page" href="/tags">Tags</a><a class="site-page" href="/categories">Categories</a></span><span class="pull-right"></span></div><div id="post-info"><div id="post-title">Linux指令</div><div id="post-meta"><time class="post-meta__date"><i class="fa fa-calendar" aria-hidden="true"></i> 2020-09-02</time><span class="post-meta__separator">|</span><i class="fa fa-inbox post-meta__icon" aria-hidden="true"></i><a class="post-meta__categories" href="/categories/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9F%BA%E7%A1%80/">计算机基础</a></div></div></div><div class="layout" id="content-inner"><article id="post"><div class="article-container" id="post-content"><h2 id="Basic"><a href="#Basic" class="headerlink" title="Basic"></a><a href="#basic"></a>Basic</h2><p><code>ls [选项] [路径]</code></p>
+<p>list 在列出指定路径下的文件&#x2F;文件夹的名称，并以指定的格式进行显示</p>
+<p><code>pwd</code></p>
+<p>print working directory 打印当前工作目录</p>
+<p><code>cd 路径</code></p>
+<p>change directory 改变目录</p>
+<p><code>mkdir 文件夹名/包含文件夹的完整路径</code></p>
+<p>make directory 创建目录</p>
+<p><code>touch 文件名/路径</code></p>
+<p>创建文件</p>
+<p><code>cp 被复制的文档路径 文档被复制到的路径</code></p>
+<p>copy 赋值文件&#x2F;文件夹到指定位置 [注]:复制文件夹时需添加选项 <code>-r</code>(recursive递归复制)</p>
+<p><code>mv 需要移动的文档路径 需要保存的位置路径</code></p>
+<p>move 移动、剪切、<strong>重命名</strong></p>
+<p><code>rm 选项 需要移除的文档路径</code></p>
+<p>remove 移除&#x2F;删除文档</p>
+<p>选项：<code>-f</code>:force强制删除；<code>-r</code>递归</p>
+<p><code>&gt; / &gt;&gt;</code></p>
+<p>输出重定向：<code>&gt;</code>:覆盖输出；<code>&gt;&gt;</code>:追加输出</p>
+<p><code>cat 文件路径</code></p>
+<p>打开文件</p>
+<p><code>cat 待合并的文件路径1 待合并的文件路径2 …. 文件路径n &gt; 合并之后的文件路径</code></p>
+<p>合并文件</p>
+<h2 id="Advanced"><a href="#Advanced" class="headerlink" title="Advanced"></a><a href="#advanced"></a>Advanced</h2><p><code>df</code></p>
+<p>查看磁盘空间 [选项 <code>-h</code> –human-readable]</p>
+<p><code>free</code></p>
+<p>查看内存使用情况 [选项 <code>-m</code>以mb为单位]</p>
+<p><code>head [-n] 文件路径</code></p>
+<p>查看一个文件的前n行，如果不指定n，则默认显示前10行</p>
+<p><code>tail -n 文件的路径</code></p>
+<p>查看一个文件末n行，如果n不指定默认显示后10行</p>
+<p><code>tail -f 文件路径</code></p>
+<p>查看一个文件的动态变化内容</p>
+<p><code>less 需要查看的文件路径</code></p>
+<p>查看文件，以较少的内容进行输出，按下辅助功能键（数字+回车、<strong>空格键</strong>+上下方向键）查看更多</p>
+<p><code>wc -lwc 需要统计的文件路径</code></p>
+<p>统计文件内容信息（包含行数lines <code>-l</code>、单词数words <code>-w</code>、字节数bytes <code>-c</code>）</p>
+<p><code>date</code></p>
+<p>输出操作时间，形式：2020年 09月 02日 星期三 20:09:27 CST</p>
+<p><code>date +%F</code>=&#x3D;<code>date &quot;+%Y-%m-%d&quot;</code></p>
+<p>输出：2020-09-02</p>
+<p><code>date &quot;+%F %T&quot;</code>=&#x3D;<code>date +%Y-%m-%d %H:%M:%S</code></p>
+<p>输出：2020-09-02 20:13:12</p>
+<p><code>date -d &quot;-1 day&quot; &quot;+%Y-%m-%d %H:%M:%S&quot;</code></p>
+<p>获取之前(-)或者之后(+)的某天(-d)&#x2F;某月(-m)&#x2F;某年(-y)</p>
+<p>[ <code>%F</code>：表示完整的年月日；<code>%T</code>：表示完整的时分秒；<code>%Y</code>：表示四位年份；<code>%m</code>：表示两位月份（带前导0）；<code>%d</code>：表示日期（带前导0）；<code>%H</code>：表示小时（带前导0）；<code>%M</code>：表示分钟（带前导0）；<code>%S</code>：表示秒数（带前导0）]</p>
+<p><code>cal</code> &#x3D;&#x3D; <code>cal -l</code></p>
+<p>输出当前月份的日历</p>
+<p><code>cal -3</code></p>
+<p>表示输出上一个月+本月+下个月的日历</p>
+<p><code>cal -y 年份</code></p>
+<p>表示输出某一个年份的日历</p>
+<p><code>clear/快捷键ctrl+L</code></p>
+<p>清除终端中已经存在的命令和结果（信息）[注：只是之前的信息的隐藏到了最上面，通过滚动条继续查看以前的信息。]</p>
+<p><code>|</code></p>
+<p><strong>管道符</strong>一般可以用于“<strong>过滤</strong>”，“特殊”，“扩展处理”。不能单独使用主要是辅助作用。</p>
+<p><code>ls / | grep y</code></p>
+<p>查询出根目录下包含“y”字母的文档名称[grep指令：主要用于过滤]</p>
+<p><code>cat 路径|less</code> &#x3D;&#x3D;<code>less 路径</code></p>
+<p><code>ls / | wc -l</code></p>
+<p>统计某个目录下的文档的总个数</p>
+<p><code>man 命令</code></p>
+<p>查询指令用法</p>
+<p><code>reboot</code></p>
+<p>重启</p>
+<p><code>shutdown -h now</code> &#x3D;&#x3D; <code>init 0</code> &#x3D;&#x3D; <code>halt</code> &#x3D;&#x3D;<code>poweroff</code></p>
+<p>关机</p>
+</div></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">Author: </span><span class="post-copyright-info"><a href="mailto:undefined">Krab</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">Link: </span><span class="post-copyright-info"><a href="http://example.com/2020/09/02/202009_linux/">http://example.com/2020/09/02/202009_linux/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">Copyright Notice: </span><span class="post-copyright-info">All articles in this blog are licensed under <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a> unless stating additionally.</span></div></div><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/OS/">OS</a></div><nav id="pagination"><div class="prev-post pull-left"><a href="/2020/09/17/202009_ssr%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/"><i class="fa fa-chevron-left">  </i><span>ssr端口占用问题</span></a></div><div class="next-post pull-right"><a href="/2020/08/10/202008_%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"><span>如何利用自己的服务器科学上网🚀</span><i class="fa fa-chevron-right"></i></a></div></nav></div></div><footer><div class="layout" id="footer"><div class="copyright">&copy;2020 - 2024 By Krab</div><div class="framework-info"><span>Driven - </span><a target="_blank" rel="noopener" href="http://hexo.io"><span>Hexo</span></a><span class="footer-separator">|</span><span>Theme - </span><a target="_blank" rel="noopener" href="https://github.com/Molunerfinn/hexo-theme-melody"><span>Melody</span></a></div><div class="busuanzi"><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><span id="busuanzi_container_page_pv"><i class="fa fa-file"></i><span id="busuanzi_value_page_pv"></span><span></span></span></div></div></footer><i class="fa fa-arrow-up" id="go-up" aria-hidden="true"></i><script src="https://cdn.jsdelivr.net/npm/animejs@latest/lib/anime.min.js"></script><script src="https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-animate@latest/velocity.min.js"></script><script src="https://cdn.jsdelivr.net/npm/velocity-ui-pack@latest/velocity.ui.min.js"></script><script src="/js/utils.js?version=1.9.1"></script><script src="/js/fancybox.js?version=1.9.1"></script><script src="/js/sidebar.js?version=1.9.1"></script><script src="/js/copy.js?version=1.9.1"></script><script src="/js/fireworks.js?version=1.9.1"></script><script src="/js/transition.js?version=1.9.1"></script><script src="/js/scroll.js?version=1.9.1"></script><script src="/js/head.js?version=1.9.1"></script><script>if(/Android|webOS|iPhone|iPod|iPad|BlackBerry/i.test(navigator.userAgent)) {
+  $('#nav').addClass('is-mobile')
+  $('footer').addClass('is-mobile')
+  $('#top-container').addClass('is-mobile')
+}</script></body></html>
