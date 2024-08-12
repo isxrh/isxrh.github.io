@@ -1,3 +1,4 @@
+http://example.com/2021/08/17/202108_%E5%9B%BE%E5%BA%8A/
 http://example.com/2020/08/10/202008_%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/
 http://example.com/2020/08/09/202008_%E7%BD%91%E9%A1%B5%E9%93%BE%E6%8E%A5%E8%B7%B3%E8%BD%ACqq%E4%BC%9A%E8%AF%9D/
 http://example.com/2020/09/17/202009_ssr%E7%AB%AF%E5%8F%A3%E5%8D%A0%E7%94%A8%E9%97%AE%E9%A2%98/
@@ -6,7 +7,6 @@ http://example.com/2021/07/17/202108_SQLyog%E8%BF%9E%E6%8E%A5%E6%9C%8D%E5%8A%A1%
 http://example.com/2021/09/17/202009_%E8%AE%BF%E9%97%AEgoogle.com%E6%98%BE%E7%A4%BA%E8%AF%81%E5%AE%9E%E6%97%A0%E6%95%88%EF%BC%88%E6%8C%87%E5%90%91vmware)/
 http://example.com/2020/08/05/202008_GIT/
 http://example.com/2021/07/08/202107_SSP/
-http://example.com/2021/08/17/202108_%E5%9B%BE%E5%BA%8A/
 http://example.com/about.html
 http://example.com/2020/12/30/202012_OS/
 http://example.com/2024/04/18/202404_JavaWeb/
