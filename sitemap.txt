@@ -1,3 +1,4 @@
+https://isxrh.github.io/2024/11/11/202411_QThread/
 https://isxrh.github.io/2024/04/28/202404_%E9%98%BF%E9%87%8C%E4%BA%91%E9%83%A8%E7%BD%B2Web%E9%A1%B9%E7%9B%AE%E6%B5%81%E7%A8%8B/
 https://isxrh.github.io/2024/02/15/202402_MyBatis/
 https://isxrh.github.io/2024/01/18/202401_JavaWeb/
@@ -28,6 +29,7 @@ https://isxrh.github.io/tags/Mybatis/
 https://isxrh.github.io/tags/JavaWeb/
 https://isxrh.github.io/tags/%E9%83%A8%E7%BD%B2/
 https://isxrh.github.io/tags/%E7%AC%94%E8%AE%B0/
+https://isxrh.github.io/tags/PyQt/
 https://isxrh.github.io/categories/%E5%B8%B8%E7%94%A8%E5%B7%A5%E5%85%B7/
 https://isxrh.github.io/categories/%E5%85%B6%E4%BB%96/
 https://isxrh.github.io/categories/%E7%96%91%E9%9A%BE%E6%9D%82%E7%97%87/
@@ -37,3 +39,4 @@ https://isxrh.github.io/categories/%E7%A7%91%E7%A0%94/
 https://isxrh.github.io/categories/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/
 https://isxrh.github.io/categories/Web/
 https://isxrh.github.io/categories/%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0/
+https://isxrh.github.io/categories/PyQt/
